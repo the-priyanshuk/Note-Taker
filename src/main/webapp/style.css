@@ -1,0 +1,70 @@
+body{
+	background-color: black;
+}
+.grey{
+	background: #212121;
+}
+.black{
+	background: #343a40;
+}
+/* Dark theme CSS for navbar */
+
+/* Navbar background and text color */
+.navbar {
+  background-color: #343a40; /* Dark gray background */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #fff !important; /* White text */
+}
+
+/* Active link color */
+.navbar-nav .nav-link.active {
+  color: #ffc107 !important; /* Yellow for active link */
+}
+
+/* Toggler icon color */
+.navbar-toggler-icon {
+  background-color: #fff; /* White toggler icon */
+}
+
+/* Dropdown menu background and text color */
+.dropdown-menu {
+  background-color: #343a40; /* Dark gray background */
+}
+
+.dropdown-menu a {
+  color: #fff !important; /* White text */
+}
+
+.dropdown-menu a:hover {
+  background-color: #495057; /* Dark gray on hover */
+  color: #ffc107 !important; /* Yellow on hover */
+}
+
+/* Search form styles */
+.navbar form {
+  margin-left: auto; /* Push search form to the right */
+}
+
+.navbar form input[type="search"] {
+  background-color: #495057; /* Dark gray background */
+  border-color: #6c757d; /* Border color */
+  color: #fff; /* White text */
+}
+
+.navbar form input[type="search"]::placeholder {
+  color: #ced4da; /* Lighter gray placeholder text */
+}
+
+.navbar form button[type="submit"] {
+  background-color: #ffc107; /* Yellow button */
+  color: #212529; /* Dark gray text */
+  border-color: #ffc107; /* Yellow border */
+}
+
+.navbar form button[type="submit"]:hover {
+  background-color: #ffca28; /* Lighter yellow on hover */
+  border-color: #ffca28; /* Lighter yellow border on hover */
+}

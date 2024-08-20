@@ -1,0 +1,16 @@
+.black{
+	background: #495057;
+}
+.card button {
+  background-color: #ffc107; /* Yellow button */
+  color: #212529; /* Dark gray text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #ffca28; }
